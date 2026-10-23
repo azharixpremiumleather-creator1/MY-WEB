@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="AZHARIX Academy — explore IT courses, skills and learning paths.">
+<title>AZHARIX Academy | Learn. Build. Grow.</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <a class="brand" href="#home"><span class="brand-symbol">A</span><span>AZHARIX<small>ACADEMY</small></span></a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+  <nav id="nav"><a href="#home">Home</a><a href="#courses">Courses</a><a href="#about">About</a><a href="#faq">FAQs</a><a class="nav-button" href="#contact">Enroll Now ↗</a></nav>
+</header>
+<main>
+<section class="hero" id="home">
+  <div class="hero-copy">
+    <div class="eyebrow"><span class="live-dot"></span> YOUR DIGITAL FUTURE STARTS HERE</div>
+    <h1>Learn skills.<br><span class="gold-text">Build your future.</span></h1>
+    <p class="lead">Practical IT courses for beginners and future professionals. Discover your path, compare course fees, and take your next step with AZHARIX Academy.</p>
+    <div class="hero-buttons"><a class="btn btn-gold" href="#courses">Explore Courses <span>→</span></a><a class="btn btn-outline" href="#about">Discover AZHARIX</a></div>
+    <div class="stats"><div><strong>15+</strong><span>Learning paths</span></div><div><strong>Practical</strong><span>Skill-focused</span></div><div><strong>2026</strong><span>Learn & grow</span></div></div>
+  </div>
+  <div class="hero-visual">
+    <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit orbit-c"></div>
+    <div class="hero-monogram">A</div>
+    <div class="editor">
+      <div class="editor-bar"><div class="window-dots"><i></i><i></i><i></i></div><span>AZHARIX / YOUR FUTURE</span><b>•••</b></div>
+      <div class="editor-body"><div class="code-row"><span class="line-no">01</span><span class="purple">const</span> <span class="blue">future</span> = {</div><div class="code-row indent"><span class="line-no">02</span><span class="orange">skills</span>: <span class="green">"technology"</span>,</div><div class="code-row indent"><span class="line-no">03</span><span class="orange">mindset</span>: <span class="green">"growth"</span>,</div><div class="code-row indent"><span class="line-no">04</span><span class="orange">goal</span>: <span class="green">"your success"</span></div><div class="code-row"><span class="line-no">05</span>};</div><div class="terminal"><span>➜</span> ready_to_build<span class="cursor">_</span></div></div>
+      <div class="editor-footer"><span>● All systems ready</span><span>AZH-2026</span></div>
+    </div>
+    <div class="float-pill pill-top">✦ Skills that matter</div><div class="float-pill pill-bottom"><span class="pill-icon">↗</span><span><b>Start your journey</b><small>One skill at a time</small></span></div>
+  </div>
+</section>
+<div class="skill-strip"><span>WEB DEVELOPMENT</span><i>✦</i><span>CREATIVE DESIGN</span><i>✦</i><span>BUSINESS SKILLS</span><i>✦</i><span>TECHNOLOGY</span><i>✦</i><span>DATA & AI</span></div>
+<section class="section" id="courses">
+  <div class="section-top"><div><p class="eyebrow">FIND YOUR PATH</p><h2>Explore our <span class="gold-text">courses.</span></h2><p class="muted">Choose your next skill and compare sample fees, duration, and course level.</p></div><div class="course-total"><b id="courseCount">15</b><span>courses available</span></div></div>
+  <div class="filters"><label class="search"><span>⌕</span><input type="search" id="search" placeholder="Search a course or skill..." aria-label="Search courses"></label><select id="category" aria-label="Course category"><option value="all">All categories</option><option>Development</option><option>Design</option><option>Office Skills</option><option>IT & Security</option><option>Marketing</option><option>Data & AI</option></select><select id="duration" aria-label="Course duration"><option value="all">Any duration</option><option value="short">Up to 2 months</option><option value="medium">3–4 months</option><option value="long">5+ months</option></select></div>
+  <div class="fee-notice"><span>ⓘ</span><p><b>Important:</b> Prices shown are illustrative sample estimates in PKR, not verified fees from an actual institute. Update them before publishing.</p></div>
+  <div class="course-grid" id="courseGrid"></div><p class="empty-state" id="emptyState" hidden>No matching courses. Try another search or category.</p>
+</section>
+<section class="about-section" id="about">
+  <div class="about-art"><div class="about-orbit orbit-1"></div><div class="about-orbit orbit-2"></div><div class="about-core"><span class="brand-symbol">A</span><b>AZHARIX</b><small>LEARN • BUILD • GROW</small></div><span class="orbit-chip chip-1">DESIGN</span><span class="orbit-chip chip-2">DEVELOP</span><span class="orbit-chip chip-3">CREATE</span></div>
+  <div class="about-copy"><p class="eyebrow">WHY AZHARIX ACADEMY</p><h2>Turn curiosity into <span class="gold-text">real skills.</span></h2><p class="muted">A clear learning path can help you move from beginner knowledge to practical projects. Pick a course that fits your goals, time, and budget.</p><div class="benefit"><span>01</span><div><b>Practice as you learn</b><p>Strengthen your skills through exercises and personal projects.</p></div></div><div class="benefit"><span>02</span><div><b>Clear course information</b><p>Compare sample fees, course length, and suggested skill level.</p></div></div><div class="benefit"><span>03</span><div><b>Build your own direction</b><p>Explore creative, technical, business, and digital skills.</p></div></div></div>
+</section>
+<section class="promo"><div><p class="eyebrow">YOUR NEXT STEP</p><h2>Ready to start learning?</h2><p>Tell us which course interests you and ask about enrollment.</p></div><a class="btn btn-gold" href="#contact">Ask about enrollment ↗</a></section>
+<section class="section faq" id="faq"><div class="section-top"><div><p class="eyebrow">GOOD TO KNOW</p><h2>Frequently asked <span class="gold-text">questions.</span></h2></div></div><div class="faq-list"><details><summary>Are the prices official?</summary><p>No. These are sample estimates used to demonstrate the website. Confirm real fees with your institute and update the course list before launch.</p></details><details><summary>Can beginners join?</summary><p>Many courses are labelled beginner level. Contact the academy to confirm prerequisites and class availability.</p></details><details><summary>Does the form submit my application?</summary><p>This demo prepares an email in the visitor’s default email app. It does not store form submissions or process payments.</p></details><details><summary>Are certificates included?</summary><p>Certificate availability depends on the actual course provider. Verify this detail before advertising it.</p></details></div></section>
+<section class="contact-section" id="contact"><div class="contact-copy"><p class="eyebrow">LET'S TALK</p><h2>Find your <span class="gold-text">next skill.</span></h2><p class="muted">Ask us about course fees, timing, prerequisites, or enrollment. Update the demo contact details with your own before publishing.</p><div class="contact-detail"><span>✉</span><div><small>EMAIL</small><b>hello@azharix.example</b></div></div><div class="contact-detail"><span>⌖</span><div><small>LOCATION</small><b>Your city, Pakistan</b></div></div></div>
+<form class="contact-form" id="contactForm"><div class="form-heading"><b>Course inquiry</b><span>Tell us what you want to learn.</span></div><div class="form-row"><label>Your name<input name="name" required placeholder="Full name"></label><label>Your email<input name="email" type="email" required placeholder="you@example.com"></label></div><label>Course of interest<select name="course" id="courseSelect" required><option value="">Choose a course</option></select></label><label>Your message<textarea name="message" rows="4" placeholder="Write your question here..."></textarea></label><button class="btn btn-gold submit-btn" type="submit">Prepare inquiry ↗</button><p class="form-note">Demo form — opens your email app; it does not save data.</p></form>
+</section>
+</main>
+<footer><a class="brand footer-brand" href="#home"><span class="brand-symbol">A</span><span>AZHARIX<small>ACADEMY</small></span></a><span>© 2026 AZHARIX Academy · Demo website</span><a href="#home">Back to top ↑</a></footer>
+<script src="script.js"></script>
+</body></html>
